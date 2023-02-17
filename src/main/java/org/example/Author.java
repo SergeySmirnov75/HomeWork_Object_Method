@@ -11,4 +11,22 @@ public class Author
         return "Имя Автора " + this.name + " Возраст Автора" + this.age;
         // Возвращаем строку в метод Main
     }
+    public String getName()
+    {
+        return this.name;
+    }
+
+    public int getAge()
+    {
+        return this.age;
+    }
+    public boolean nameEquals(String name)
+    {
+        return name.equals(this.name);
+    }
+
+    public int hashCode()
+    {
+        return java.util.Objects.hash(name);
+    }
 }
