@@ -2,8 +2,8 @@ package org.example;
 
 public class Author
 {
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     public String toString()
     {
