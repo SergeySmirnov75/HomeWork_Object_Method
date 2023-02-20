@@ -1,10 +1,8 @@
-package org.example;
-
 public class Book
 {
-    String name;
-    int age;
-    Author author;
+    private String name;
+    private int age;
+    private Author author;
 
     public String toString()
     {
